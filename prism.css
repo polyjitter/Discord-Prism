@@ -1,0 +1,216 @@
+/*Background*/
+
+.app {
+    background-image: url("https://i.stole-a-me.me/be304d.jpg");
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.connecting {
+    background-image: url("https://i.stole-a-me.me/be304d.jpg");
+    background-blend-mode: soft-light;
+    background-repeat: repeat;
+    background-position: 0px 0px;
+    background-size: cover;
+}
+
+.connecting video.ready {
+    display: none;
+}
+
+
+/*Transparency*/
+
+#voice-connection,
+#friends,
+#friends .btn,
+.friends-header,
+.friends-table,
+.channels-wrap,
+.guild-channels,
+.links,
+.chat,
+.messages-wrapper,
+.content,
+.chat-empty,
+.message-group-blocked,
+.private-channels,
+.guild-header header,
+.chat,
+.chat form,
+.theme-dark .channel-members {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.theme-dark .channel-members .member.popout-open,
+.theme-dark .channel-members .member:hover {
+    background: linear-gradient(to right, rgba(256, 256, 256, 0.05) 45%, transparent);
+}
+
+.connecting video.ready {
+    display: none;
+}
+
+.guilds-wrapper,
+.theme-dark .chat .has-more button {
+    background: rgba(0, 0, 0, 0.8) !important;
+}
+
+.guild-header header {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.3), inset 0 -1px 0 rgba(0, 0, 0, .1)
+}
+
+.search-bar {
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+#friends .friends-table {
+    margin-top: 0px !important;
+    background: rgba(0, 0, 0, 0.745) !important;
+}
+
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: rgba(100, 100, 100, 0.3) !important;
+}
+
+#voice-connection {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border-top: 0px;
+}
+
+.account {
+    background: rgba(0, 0, 0, 0.7) !important;
+    border-top: 0px;
+}
+
+.guild-channels .channel.selected {
+    background-color: transparent !important;
+}
+
+.private-channels .channel.selected,
+.private-channels .channel:hover,
+.private-channels .search-result.selected,
+.private-channels .search-result:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 15%, transparent);
+}
+
+.guild-channels .channel:hover {
+    background-color: transparent !important;
+}
+
+.guild-channels .channel-text:hover {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 15%, transparent);
+}
+
+.guild-channels .channel-text.selected,
+.private-channels .channel-text.selected {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 15%, transparent);
+}
+
+.account .btn,
+#voice-connection .btn {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.account .btn-group,
+#voice-connection .btn-group {
+    border: none !important;
+}
+
+.account .btn-mute,
+.account .btn-deafen,
+.account .btn-settings,
+#voice-connection .btn-info,
+#voice-connection .btn-disconnect {
+    border: none;
+    box-shadow: none;
+    transition: background-color 0.2s;
+}
+
+.title-wrap,
+.theme-dark .invite-button,
+.theme-dark #friends .friends-header {
+    background: rgba(0, 0, 0, 0.745) !important;
+    border-color: transparent;
+}
+
+.guilds-wrapper .guilds-add {
+  background: rgba(0, 0, 0, 0.745) !important;
+}
+
+.theme-dark .message-group .embed {
+    border-color: transparent;
+}
+
+
+/*Redefault the emoji search*/
+
+.emoji-picker .header .search-bar {
+    background: inherit !important;
+}
+
+
+/*Scrollbar*/
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: #000!important;
+    border-color: #111!important;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece,
+.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    border-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+
+/* Codeblocks*/
+
+.code,
+.theme-dark .message-group .comment .markup pre,
+.theme-dark .message-group .comment .markup code.inline,
+.theme-dark .message-group .comment .markup pre code {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.guilds-wrapper .guilds .guild .guild-inner,
+.guilds-wrapper .guild-separator:after {
+    background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.theme-dark .chat .title-wrap {
+    border-bottom: 0px;
+}
+
+.theme-dark .friends-table .messages .divider.divider-red>span,
+.theme-dark .messages-wrapper .messages .divider.divider-red>span,
+.chat .divider>span {
+    background: #000!important;
+}
+
+.chat form {
+    margin: 0px;
+}
+
+.channel-textarea {
+    margin: 20px 20px 30px;
+}
+
+.theme-dark .chat .content form .channel-textarea-inner {
+  border-color: transparent;
+}
+
+.theme-dark .chat form {
+    border-top: 0px;
+}
+
+.typing {
+    background-color: transparent !important;
+    margin: 0 20px;
+}
