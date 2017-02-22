@@ -9,6 +9,6 @@ To use a custom background, please use the following in your CSS:
 ```css
 .app,
 .connecting {
-    background-image: url(https://your.image.url/here.png);
+    background-image: url("https://your.image.url/here.png");
 }
 ```
