@@ -21,6 +21,14 @@
 
 
 /*Transparency*/
+.theme-dark .layer, .theme-dark .layers
+ {
+  background: transparent!important;
+  box-shadow: none;
+  border-bottom: 0px solid #fff;
+  border-top: none;
+  opacity: 1;
+}
 
 #voice-connection,
 #friends,
